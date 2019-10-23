@@ -3,4 +3,14 @@
 
     <!--Books Activity-->
     <string name="books_title">Books</string>
+    <string name="books_error_401">Não autorizado</string>
+    <string name="books_error_400_generic">Error não tratado</string>
+    <string name="books_error_500_generic">Error Cadatrastófico</string>
+
+
+    <!--Book Details Activity-->
+    <string name="book_details_title">Books Details</string>
+    <string name="book_details_title_label">Title</string>
+    <string name="book_details_description_label">Description</string>
+
 </resources>

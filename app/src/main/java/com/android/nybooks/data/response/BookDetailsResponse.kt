@@ -1,5 +1,6 @@
 package com.android.nybooks.data.response
 
+import com.android.nybooks.data.model.Book
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
@@ -13,5 +14,11 @@ data class BookDetailsResponse (
 
     @Json(name = "author")
     val author: String
-)
+){
+    fun getBookModel() = Book(
+        title = this.title,
+        author = this.author,
+        description = this.description
+    )
+}
 
