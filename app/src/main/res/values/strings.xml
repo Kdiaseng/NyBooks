@@ -5,7 +5,7 @@
     <string name="books_title">Books</string>
     <string name="books_error_401">Não autorizado</string>
     <string name="books_error_400_generic">Error não tratado</string>
-    <string name="books_error_500_generic">Error Cadatrastófico</string>
+    <string name="books_error_500_generic">Error Catastrófico</string>
 
 
     <!--Book Details Activity-->
